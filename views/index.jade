@@ -1,0 +1,27 @@
+extends layout/base
+block content  
+    section.content-header
+        h1
+            | Hello World
+            small This is a hello world page
+        ol.breadcrumb
+            li
+                a(href='#')
+                    i.fa.fa-dashboard
+                    |  Level
+            li.active Here
+    // Main content
+    section.content
+        // Your Page Content Here
+        // /.row
+        .row
+            .col-xs-12
+                .box
+                    .box-header
+                        h3.box-title Hi, Welcome to Dashboard
+                    // /.box-header
+                    .box-body
+                        p Welcome to #{title}
+                    // /.box-body
+                // /.box
+    // /.content

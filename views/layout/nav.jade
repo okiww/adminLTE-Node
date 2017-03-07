@@ -1,0 +1,26 @@
+header.main-header
+    a(href='/').logo
+        span.logo-mini
+        span.logo-lg
+            b Ganteng
+    nav(role='navigation').navbar.navbar-static-top
+        a(href='#', role='button', data-toggle='offcanvas').sidebar-toggle
+            span.sr-only Toggle Navigation
+        div.navbar-custom-menu
+            ul.navbar-nav.nav
+                li.dropdown.user.user-menu
+                    a(href="#", data-toggle='dropdown').dropdown-toggle
+                        img.user-image(src='/adminlte/dist/img/avatar.png', alt='User Image')
+                        span.hidden-xs Ganteng Banget
+                    ul.dropdown-menu
+                        li.user-header
+                            img.img-circle(src='/adminlte/dist/img/avatar.png', alt='User Image')
+                            p
+                                | Muhammad Arslan
+                        li.user-footer
+                            div.pull-left
+                                a.btn.btn-default.btn-flat(href='/profil/') Profil
+                            div.pull-right
+                                a.btn.btn-default.btn-flat(href='/logout/') Keluar
+                li
+                    div(style='margin-right:25px;')
