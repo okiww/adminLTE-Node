@@ -2,6 +2,6 @@
 Templating Admin LTE with NodeJS
 
 
-# run npm install on your directory
+# npm install on your terminal
 
-# run npm start on your directory
+# npm start on your terminal
